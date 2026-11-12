@@ -38,6 +38,7 @@ use LibreNMS\Interfaces\Discovery\BgpPeerDiscovery;
 use LibreNMS\Interfaces\Discovery\EntityPhysicalDiscovery;
 use LibreNMS\Interfaces\Discovery\FdbTableDiscovery;
 use LibreNMS\Interfaces\Discovery\Ipv4AddressDiscovery;
+use LibreNMS\Interfaces\Discovery\Ipv6AddressDiscovery;
 use LibreNMS\Interfaces\Discovery\MefDiscovery;
 use LibreNMS\Interfaces\Discovery\MempoolsDiscovery;
 use LibreNMS\Interfaces\Discovery\NeighborDiscovery;
@@ -89,6 +90,7 @@ class OS implements
     FdbTableDiscovery,
     IcmpNetstatsPolling,
     Ipv4AddressDiscovery,
+    Ipv6AddressDiscovery,
     NeighborDiscovery,
     IpNetstatsPolling,
     IpForwardNetstatsPolling,
